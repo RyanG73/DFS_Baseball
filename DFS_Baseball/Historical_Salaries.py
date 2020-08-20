@@ -1,7 +1,4 @@
-import seaborn as sns
-import numpy as np
 import pandas as pd
-from bs4 import BeautifulSoup
 import requests
 import glob
 import time
@@ -12,7 +9,6 @@ start_time = time.time()
 months = [3,4,5,6,7,8,9,10]
 days = list(range(1,32))
 years = [2014,2015,2016,2017,2018,2019,2020]
-#years = [2018,2019,2020]
 
 total_df = pd.DataFrame()
 for y in years:
